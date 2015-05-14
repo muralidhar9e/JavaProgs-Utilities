@@ -5,6 +5,9 @@
    * @return Properties The resource.
    * @throws Exception
    */
+   public static void main(String args[]){
+   	
+   }
   public Properties loadProperties(String propertiesFilename) throws Exception
   {
 	URL url = (new Object()).getClass().getResource("/" + propertiesFilename);
